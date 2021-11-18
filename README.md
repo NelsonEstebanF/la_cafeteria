@@ -1,1 +1,2 @@
-# la_cafeteria
+# cafeteria
+Django project build in class
