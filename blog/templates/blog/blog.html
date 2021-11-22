@@ -2,11 +2,11 @@
 
 {% load static %}
 
-{% block title %}Blog{% endblock %}
+{% block title %}{{title}}{% endblock %}
 
 {% block content %}
 
-  {% for post in posteos %}
+  {% for post in posts %}
 
     <section class="page-section cta">
       <div class="container">
