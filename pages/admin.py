@@ -1,7 +1,9 @@
 from django.contrib import admin
+#from django.contrib.admin import register
 from .models import Page
 
+#@register(Page)
 class PageAdmin(admin.ModelAdmin):
-    readonly_fields = ('created', 'updated')
+    pass
 
 admin.site.register(Page, PageAdmin)

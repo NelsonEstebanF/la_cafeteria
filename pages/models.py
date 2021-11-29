@@ -7,9 +7,8 @@ class Page(models.Model):
     updated = models.DateTimeField(auto_now=True, verbose_name='Fecha de actualización')
 
     class Meta:
-        verbose_name = 'page'
-        verbose_name_plural = 'pages'
-        #ordering = ['-created']
+        verbose_name = 'página'
+        verbose_name_plural = 'páginas'
 
     def __str__(self) -> str:
         return self.title
